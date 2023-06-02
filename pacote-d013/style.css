@@ -33,3 +33,14 @@ main {
     left: 50%;
     transform:translate(-50%, -50%);
 }
+
+iframe {
+    position: absolute; /*TEM QUER O 'POSITION' E N ATACHMEN*/
+
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    background-color: lightgray;
+    height: 475px;
+    width: 266px;
+}
