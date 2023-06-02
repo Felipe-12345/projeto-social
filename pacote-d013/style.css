@@ -1,17 +1,35 @@
-.madeira {
-    width: 98vw;
-    width: vw;
-   
+@charset "utf-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+html, body{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    background-image: url(pacote-d013/imagens/fundo-madeira.jpg);
     background-size: cover;
-    background-attachment:;
-    background-repeat: no-repeat;
-    
+}
+
+main {
+   height: 100vh;
     position: relative;
     
 }
-.img {
-    position: absolute;
+
+.cell{
+    height: 627px;
+    width: 311px;
+    
+    background-image: url(pacote-d013/imagens/frame-iphone.png);
+    background-repeat: no-repeat;
+    position: absolute; /*TEM QUER O 'POSITION' E N ATACHMEN*/
+
     top: 50%;
     left: 50%;
-    
+    transform:translate(-50%, -50%);
 }
